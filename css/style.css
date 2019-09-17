@@ -33,6 +33,9 @@ body{
 .btn:hover{
   color: #ffffff;
 }
+.btn_color:hover{
+  color:#C5D930;
+}
 .titulo_produtos {
   font-size: 36px;
   font-weight: bold;
@@ -61,10 +64,29 @@ body{
   width: 107px;
   height: 4px;
   border-radius:4px;
-  background: #595959; 
+  background: #ffffff; 
   margin: 10px auto 10px auto;
 
 }
+.titulo_qualidade {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 0px;
+  color:#595959;
+}
+.titulo_qualidade::after{
+  content: "";
+  display: block; 
+  width: 107px;
+  height: 4px;
+  border-radius:4px;
+  background:#C5D930; 
+  margin: 10px auto 10px auto;
+
+}
+
 .subtitulo{
   font-size: 18px;
   font-weight: bold;
@@ -192,25 +214,88 @@ h2 {
   text-align: center;
   padding: 0 0 10px 0;
   margin-top: 20px;
-  
-}
-
-
-.call p{
   font-size: 14px;
   color: #595959;
-  
+}
+.call_parceiros{
+  text-align: center;
+  padding: 0 0 10px 0;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #595959;
+}
+
+.call_parceiros p{
+  margin-top: 100px;
+  margin-bottom: 30px;  
+}
+.call_produtos{
+  text-align: center;
+  padding: 0 0 10px 0;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #595959;
+}
+
+.call_produtos p{
+  margin-top: 60px;
+  margin-bottom: 30px;  
 }
   
 .parceiros{
-  margin-top: 60px;
-  background: #C5D930
+  margin-top: 100px;
+  background: #A9AEB3;
+  height: 700px;
+
 }
 .parceiros li{
   margin-bottom: 20px;
 }
 .lista_parceiros{
-  margin-top: -19px;
+  margin-top: 60px;
+}
+/* Qualidade*/
+.qualidade li{
+  margin-bottom: 20px;
+}
+.qualidade img{
+  margin-left: 360px;
+}
+.qualidade:after{
+  content: "";
+  width: 628px;
+  height: 80px;
+  display: block;
+  background: url(../img/linhas.svg) no-repeat center;
+  position: absolute;
+  top: 220px;
+  right: 178px;
+  z-index:-1 ;
+}
+
+.lista_qualidade{
+  text-align: center;
+  margin-top: 50px;
+  color: #595959
+}
+.lista_qualidade h3{
+  font-size: 18px;
+  font-weight: bold;
+  color: #595959;
+  font-style: normal;
+  text-transform: uppercase; 
+  text-align: center;
+  margin: 10px auto;
+
+}
+.lista_qualidade h3:after { /*tracinho depois do titulo*/
+  content: "";
+  display: block; 
+  width: 80px;
+  height: 3px;
+  background: #595959; 
+  margin: 10px auto 10px auto;
+  margin-bottom: 40px;
 }
 
 
