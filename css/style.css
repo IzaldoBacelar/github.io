@@ -272,7 +272,9 @@ h2 {
   right: 178px;
   z-index:-1 ;
 }
-
+.qualidade{
+  height: 750px
+}
 .lista_qualidade{
   text-align: center;
   margin-top: 50px;
@@ -297,7 +299,41 @@ h2 {
   margin: 10px auto 10px auto;
   margin-bottom: 40px;
 }
-
+/*Footer*/
+.footer{
+  width: 100%;
+  background:#97A624; 
+  color: #595959;
+  padding: 20px 0  0;
+}
+.footer_contato {
+  padding: 0 0 10px;
+}
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer_redes strong{
+  text-align: center;
+  margin-top: 100px;
+}
+.footer h3:after{
+  content: "";
+  display: block; 
+  width: 60px;
+  height: 3px;
+  border-radius:4px;
+  background: #595959; 
+  margin: 6px 0 12px 0;
+}
+.copy{
+  width: 100%;
+  padding: 20px;
+  background: #595959;
+  color:#ffffff; 
+}
 
   
   
