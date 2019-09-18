@@ -76,6 +76,9 @@ body{
   margin-left: 0px;
   color:#595959;
 }
+.titulo_qualidade:hover{
+  color:#C5D930;
+}
 .titulo_qualidade::after{
   content: "";
   display: block; 
@@ -241,7 +244,7 @@ h2 {
   margin-top: 60px;
   margin-bottom: 30px;  
 }
-  
+
 .parceiros{
   margin-top: 100px;
   background: #A9AEB3;
@@ -315,10 +318,8 @@ h2 {
   text-transform: uppercase;
   font-weight: bold;
 }
-.footer_redes strong{
-  text-align: center;
-  margin-top: 100px;
-}
+
+
 .footer h3:after{
   content: "";
   display: block; 
